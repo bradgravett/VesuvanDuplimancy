@@ -1,4 +1,4 @@
 fun main() {
 
-  println(FrameDefParser("FrameDefinitions/prototypeFrame.txt").fileContents)
+  println(FrameDefParser("prototypeFrame.txt").fileContents)
 }
