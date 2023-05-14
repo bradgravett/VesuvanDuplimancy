@@ -4,7 +4,7 @@ import java.io.File
 import javax.imageio.ImageIO
 
 class FrameDefParser(frameFile: String) {
-  private val frameDefPath = "src/main/kotlin/FrameDefinitions/"
+  private val frameDefPath = "src/main/resources/frameDefinitions/"
   private val file = File(frameDefPath + frameFile)
   private val bufferedReader = file.bufferedReader()
   val fileContents = bufferedReader.use { it.readText() }
