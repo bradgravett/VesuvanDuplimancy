@@ -1,4 +1,8 @@
 fun main() {
 
-  println(FrameDefParser("prototypeFrame.txt").fileContents)
+  val parser = FrameDefParser("prototypeFrame.txt")
+
+  println(parser.fileContents)
+
+  parser.createImg()
 }
